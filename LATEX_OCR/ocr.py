@@ -15,8 +15,8 @@ from PIL import ImageGrab
 env = os.environ
 
 default_headers = {
-    'app_id': env.get('APP_ID', '291886265_qq_com_b68139'),
-    'app_key': env.get('APP_KEY', 'b5b5318997f366ab5296'),
+    'app_id': env.get('APP_ID', 'your_app_id'),
+    'app_key': env.get('APP_KEY', 'your_app_key'),
     'Content-type': 'application/json'
 }
 
